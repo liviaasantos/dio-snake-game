@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: QanelasExtraBold;
+    src: url(/fontes/Qanelas-Heavy.ttf)}
+
+body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    margin: 15px;
+    font-family: QanelasExtraBold;
+    color: purple;
+}
+
+.snake {
+    border: 2px solid purple;
+    border-radius: 5px;
+}
